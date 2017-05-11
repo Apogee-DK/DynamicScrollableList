@@ -11,4 +11,4 @@ The dynamic scrollable list is an implementation of a "lazy-loading" list which 
 
 The use of ngFor to display the information in a given data structure can be taxing when the data structure is huge. The creation of all its DOM elements and the rendering of all its CSS properties can lead to an increase in performance.
 
-The goal of this implementation was to increase performance by setting a view limit and loading the information which can be seen by the user.
+The goal of this implementation was to increase performance by setting a view limit and only loading the viewable information.
