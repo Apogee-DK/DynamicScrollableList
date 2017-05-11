@@ -4,7 +4,7 @@ Angular2 Dynamic Scrollable List - Expansion of the list when the user scrolls d
 # Description
 The dynamic scrollable list is an implementation of a "lazy-loading" list which does not use any css to hide or show the data. Instead, it uses a directive to listen to host events (scrolling) and splices the original data into two separate arrays - the hidden items and the shown items.
 
-The use of ngFor to display the information in a given data structure can be taxing when the data structure is huge. The creation of all its DOM elements and the rendering of all its CSS properties can lead to an increase in performance.
+The use of ngFor to display the information in a given data structure can be taxing when the data structure is huge. The creation of all its DOM elements and the rendering of all its CSS properties can lead to an decrease in performance.
 
 The goal of this implementation was to increase performance by setting a view limit and only loading the viewable information.
 
